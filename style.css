@@ -68,7 +68,7 @@ p {
     font-size: 20px;
 }
 
-.div4, .div3{
+.div4, .div3, .div5{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -102,4 +102,12 @@ img {
     background-image: url(resources/developer-portfolio/drem.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.div5{
+    margin-top: 80px;
+}
+
+h3{
+    color: #008321;
 }
