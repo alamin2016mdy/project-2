@@ -7,7 +7,7 @@
 }
 
 body {
-    margin: 10px;
+    margin: 0px;
 }
 
 .header,
@@ -15,7 +15,7 @@ ul,
 li {
     display: flex;
     justify-content: space-between;
-    margin: 5px 5px;
+    margin: 0px 0px 0px 10px;
     padding: 5px;
 }
 
@@ -38,7 +38,7 @@ li {
     transition-duration: .5s;
 }
 
-.btn {
+.btn{
     margin-left: 30px;
     padding: 10px 15px;
     font-size: 25px;
@@ -48,16 +48,19 @@ li {
 }
 
 span {
-    color: #00721c;
+    color: #000000;
+    text-shadow: 5px 5px 5px rgb(253, 255, 254);
 }
 
-.h2 {
+h1, h2 {
+    color: #000000;
     font-size: 50px;
     line-height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 h3 {
+    font-size: x-large;
     padding-bottom: 20px;
 }
 
@@ -65,7 +68,7 @@ p {
     font-size: 20px;
 }
 
-.div1 {
+.div4, .div3{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,4 +81,25 @@ p {
 
 img {
     width: 100%;
+}
+
+.topsection {
+    background-image: url(resources/developer-portfolio/top.png);
+    background-repeat: no-repeat;
+}
+
+.btndiv{
+    margin-top: 25px
+}
+.btn2{
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(0, 153, 0), green);
+}
+
+.div4{
+    background-image: url(resources/developer-portfolio/drem.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
